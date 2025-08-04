@@ -23,5 +23,5 @@ This runs document retrieval on sample data and returns an output using the fine
 
 ## Notes
 
-See [CREDITS.md](CREDITS.md) for third-party code and acknowledgments
+See [CREDITS.md](CREDITS.md) for third-party code and acknowledgments  
 Code was created by and with the assistance of generative AI
