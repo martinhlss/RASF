@@ -1,0 +1,25 @@
+Example 1:
+Context: The issuer has incorporated sustainability goals into its corporate strategy. The issuer has committed to reduce Scope 1 and 2 GHG emissions by 40% and 30% respectively by 2030.
+Output:
+Strategy integration;null
+Environmental initiatives;Metric=GHG Scope 1,Value=-40%,By=2030|Metric=GHG Scope 2,Value=-30%,By=2030
+
+Example 2:
+Context: The bond's coupon rate will step down by 25 basis points if the issuer fails to meet its renewable energy production KPI.
+Output:
+Performance linking;null
+
+Example 3:
+Context: The issuer is commited to the environment and will do its best to reduce its impact. The proceeds of the bond issued back in 2020 were used to sustainability projects.
+Output:
+Unspecified;null
+
+Example 4:
+Context: The proceeds of the newly issued bond will be allocated to renewable energy, clean transportation, and energy efficiency projects.
+Output:
+Designated green financing;null
+
+Example 5:
+Context: This document does not include any ESG commitments related to the newly issued bond.
+Output:
+Unspecified;null

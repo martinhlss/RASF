@@ -1,0 +1,41 @@
+
+Example 1:
+Context: The Issuer may, at any time from and including 11 December 2029 to but excluding the Maturity Date, redeem the bonds in whole, but not in part, at their outstanding principal amount plus accrued interest.  
+In addition, if 70% or more of the notes have been redeemed or purchased and cancelled, the Issuer may redeem the remaining notes in full.  
+Prior to 11 December 2029, the bonds may also be redeemed at a make-whole amount calculated by the calculation agent.
+
+Output:
+Standard  
+Clean-up  
+Make-whole
+
+Example 2:
+Context: The bonds may be redeemed early at the Issuer’s option in the event that changes to tax law result in withholding tax obligations.  
+The Issuer may also redeem the bonds if regulatory changes negatively impact their capital treatment.
+
+Output:
+Tax  
+Regulatory
+
+Example 3:
+Context:
+If 75% of the aggregate principal amount of the bonds has been purchased or redeemed, the Issuer may redeem the remaining bonds in whole.  
+The prospectus also includes a provision allowing early redemption at a make-whole amount prior to 2029.
+Furthermore, bonds may be redeemed at their principal amount from 11 December 2029 to the maturity date.
+
+Output:
+Clean-up  
+Make-whole  
+Standard
+
+Example 4:
+Context: The bonds shall not be subject to redemption prior to the maturity date under any circumstances.
+
+Output:
+No call option
+
+Example 5:
+Context: This bond is considered high quality and will be offered to professional investors only.
+
+Output:
+Unspecified

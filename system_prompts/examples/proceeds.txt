@@ -1,0 +1,26 @@
+Example 1:
+Context: The proceeds will be used to pay off our current outstanding debt expiring soon and for general corporate purposes.
+Output:
+Refinancing Existing Debt
+General corporate purposes
+
+Example 2:
+Context: Funds will support strategic acquisitions and general corporate purposes.
+Output:
+Investments and Acquisitions
+General corporate purposes
+
+Example 3:
+Context: This bond issuance strengthens the bank's Tier 2 capital base.
+Output:
+Regulatory capital purposes
+
+Example 4:
+Context: The issuer stated the proceeds will be allocated to a new headquarters project.
+Output:
+Other
+
+Example 5:
+Context: No explicit use of proceeds purpose is stated.
+Output:
+Unspecified

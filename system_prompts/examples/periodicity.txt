@@ -1,0 +1,26 @@
+Example 1:
+Context: The Notes will bear interest at a rate of 4.250% per annum, payable each year on 11 March, commencing on 11 March 2025.
+Output:
+Annually;Constant
+
+Example 2:
+Context: The bonds will pay interest every quarter for the first 3 years, and then semi-annually thereafter until maturity.
+Output:
+Quarterly;Initial
+Semi-annually;Follow-up
+
+Example 3:
+Context: The bond will be fixed until 2026 with coupons paid each year on February 1. After this it will switch to the LIBOR with a spread of 5%.
+Output:
+Annually;Unspecified
+
+Example 4:
+Context: The coupon will be paid bi-weekly for the first year. After this it will be paid every quarter.
+Output:
+Complex;Initial
+Quarterly;Follow-up
+
+Example 5:
+Context: The bond is of high quality and has a coupon of 5%.
+Output:
+Unspecified;null

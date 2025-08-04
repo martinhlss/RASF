@@ -1,0 +1,25 @@
+Example 1:
+Context: The ISIN for the newly issued bond is XS1234567890.
+Output:
+XS1234567890;Unspecified;Unspecified
+
+Example 2:
+Context: The Regulation S Notes will be issued under ISIN XS2222222222 and the Rule 144A Notes under ISIN US2222222222.
+Output:
+XS2222222222;Regulation S;Unspecified
+US2222222222;Rule 144A;Unspecified
+
+Example 3:
+Context: The temporary ISIN for the Notes is XS3333333333.
+Output:
+XS3333333333;Unspecified;Temporarily
+
+Example 4:
+Context: The ISIN of the existing bonds issued in 2021 is XS4444444444.
+Output:
+Unspecified;null;null
+
+Example 5:
+Context: No ISIN has yet been assigned to the newly issued bonds.
+Output:
+Unspecified;null;null

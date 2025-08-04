@@ -1,0 +1,28 @@
+Example 1:
+Context: The newly issued bond bears an interest equal to the LIBOR on 3 months basis with a spread of 0.15 per cent, after 1 year this changes to a fixed rate of 2.2 per cent.
+Output:
+Floating; 3-month LIBOR,0.150; Initial
+Fixed; 2.200; Follow-up
+
+Example 2:
+Context: The newly issued bond interest rate will be linked to EURIBOR. The bond issued in in 2020 has a fixed rate of 10%.
+Output:
+Floating;EURIBOR,Unspecified;Constant
+
+Example 3:
+Context: The newly issued bond interest rate will vary and be contigent on the occurance of a natural disaster and range between 10-50%. After 2 years it will be fixed to 10%.
+Output:
+Other;null;Initial
+Fixed;10.000;Follow-up
+
+Example 4:
+Context: The bond starts at 1% for the first 5 years, then steps up to 1.75%. After this the coupon will depend on the occurance of a a tornado.
+Output:
+Fixed;1.000;Initial
+Fixed;1.750;Follow-up
+Other;null;Follow-up
+
+Example 5:
+Context: This bond is considered high quality and will be offered to professional investors only.
+Output:
+Unspecified;null;null
