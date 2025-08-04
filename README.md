@@ -1,5 +1,4 @@
-# Information Retrieval and LoRA-based Template Filling Models
-## As part of Master Thesis
+# Information Retrieval and LoRA-based Template Filling Models as part of Master Thesis
 
 This repository contains the information retrieval models and LoRA-fine-tuned Llama 3.1 8B Instruct model for template filling. Together they form a retrieval-augmented slot filling model for prospectuses.
 
