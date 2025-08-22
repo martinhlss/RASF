@@ -10,7 +10,7 @@ def main():
     pickle_path = "data/pickle/prospectus_1.pkl"
     query = "ISIN"
     instruction_path = "system_prompts/instructions/isin.txt"
-    examples_path = "system_prompt/examples/isin.txt"
+    examples_path = "system_prompts/examples/isin.txt"
     model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
     lora_path = "lora_weights"
 
