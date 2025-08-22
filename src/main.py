@@ -7,7 +7,8 @@ import github.src.pdf_conversion as pdf_conversion
 def main():
     
     # Parameters
-    pickle_path = "data/pickle/prospectus_1.pkl"
+    pdf_path = "data/pdfs/prospectus_1.pdf"
+    pickle_folder_path = "data/pickles"
     query = "ISIN"
     instruction_path = "system_prompts/instructions/isin.txt"
     examples_path = "system_prompts/examples/isin.txt"
@@ -27,7 +28,7 @@ def main():
 
     # Loading query-independent data
     # return format: {"list_chunks": [], "list_tokenized_chunks": [], "list_vectors": []}
-    general_data = pdf_conversion.loading_query_independent_data(pickle_path, nlp, embedding_model)
+    general_data = pdf_conversion.loading_query_independent_data(pdf_path, pickle_folder_path, nlp, embedding_model)
 
     # Retrieving documents matching query
     # return format: [(chunk, weighted_score, bm25_score, dense_score), ...]
