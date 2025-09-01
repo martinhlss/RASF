@@ -7,8 +7,8 @@ import github.src.pdf_conversion as pdf_conversion
 def main():
     
     # Parameters
-    pdf_path = "data/pdfs/prospectus_1.pdf"
-    pickle_folder_path = "data/pickles"
+    pdf_path = "data/pdfs/evaluation/prospectus_1.pdf"
+    pickle_folder_path = "data/pickles/evaluation"
     query = "ISIN"
     instruction_path = "system_prompts/instructions/isin.txt"
     examples_path = "system_prompts/examples/isin.txt"
